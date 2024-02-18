@@ -1,0 +1,18 @@
+#import:
+#  partcad-index:
+#    type: git
+#    url: https://github.com/openvmp/partcad-index.git
+
+assemblies:
+  imperial-desk-1:
+    type: assy
+    parameters:
+      length:
+        type: float
+        default: 72
+      width:
+        type: float
+        default: 36
+      height:
+        type: float
+        default: 48

@@ -1,0 +1,22 @@
+links:
+  {% for x in [0, 5*12*25.4] %}
+  {% for y in [0, 2*12*25.4] %}
+  - part: lumber
+    package: pc-std-imperial-dimensional-lumber
+    name: lumber
+    location: [[{{x}}, {{y}}, 0], [1, 0, 0], -90]
+    params:
+      height: 4
+      length: {{ param_height }}
+  {% endfor %}
+  {% endfor %}
+
+  - part: plywood
+    package: pc-std-imperial-dimensional-lumber
+    name: plywood
+    location: [[-{{4.25*25.4}}, -{{4.25*25.4}}, 0], [0, 0, 1], 0]
+    params:
+      length: {{ param_width }}
+      width: {{ param_length }}
+  
+
