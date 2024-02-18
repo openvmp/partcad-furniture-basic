@@ -1,6 +1,6 @@
 links:
-  {% for x in [0, 5*12*25.4] %}
-  {% for y in [0, 2*12*25.4] %}
+  {% for x in [0, (param_length - 12)*25.4] %}
+  {% for y in [0, (param_width  - 12)*25.4] %}
   - part: lumber
     package: pc-std-imperial-dimensional-lumber
     name: lumber
