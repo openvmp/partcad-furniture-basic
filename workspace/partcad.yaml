@@ -1,5 +1,7 @@
+partcad: ">=0.5.0"
+
 #import:
-#  partcad-index:
+#  pub:
 #    type: git
 #    url: https://github.com/openvmp/partcad-index.git
 
